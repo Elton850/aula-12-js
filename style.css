@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 100vw;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+button{
+    height: 42px;
+    cursor: pointer;
+    padding: 0.65rem;
+    border: none;
+}
+
+.form-header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: aqua;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.form-caixa-pesquisa{
+    width: 720px;
+    height: 36px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-right: transparent;
+    padding-left: 0.5rem;
+    outline: none;
+}
+
+.form-pesquisa-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-button-pesquisar {
+    margin-right: 1rem;
+    border: 2px solid black;
+    border-left: transparent;
+}
+
+.form-button-adicionar{
+    border-radius: 5px;
+}
+
